@@ -1,2 +1,2 @@
 [webservers]
-35.238.232.182 ansible_user=david_busyqa
+34.75.189.60 ansible_user=david_busyqa
