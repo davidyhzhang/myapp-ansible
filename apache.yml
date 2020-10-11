@@ -4,11 +4,11 @@
   tasks:
     - name: Install packages
       yum:
-        name: "httpd"
+        name: "nginx-light"
         state: "present"
     - name: Start Apache server
       service:
-        name: httpd
+        name: nginx
         state: started
         enabled: True
     - name: Deploy static website
